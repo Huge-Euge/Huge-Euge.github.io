@@ -1,0 +1,40 @@
+header {
+    width: 70%;
+    background-color: pink;
+    margin: auto;
+
+    box-sizing: border-box;
+    border: 1px solid black;
+
+    text-align: center;
+    font-size: 36pt;
+}
+
+nav {
+    width: 70%;
+    background-color: pink;
+    margin: auto;
+
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+main {
+    width: 70%;
+    background-color: pink;
+    margin: auto;
+
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+footer {
+    width: 70%;
+    background-color: pink;
+    margin: auto;
+
+    box-sizing: border-box;
+    border: 1px solid black;
+
+    text-align: center;
+}
