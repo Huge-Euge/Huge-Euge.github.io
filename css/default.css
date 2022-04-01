@@ -1,7 +1,13 @@
+body {
+    background-color: darkgray;
+}
+
 header {
     width: 70%;
     background-color: pink;
     margin: auto;
+    
+    font-family: monospace;
 
     box-sizing: border-box;
     border: 1px solid black;
@@ -14,24 +20,64 @@ nav {
     width: 70%;
     background-color: pink;
     margin: auto;
+    color: aliceblue;
 
+    text-align: center;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 2px solid black;
+    background-color: rgb(106, 43, 95);
 }
+
+#siteMenu {
+    display: flex;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+#siteMenu li {
+    flex: 1;
+    justify-content: center;
+    display: inline-flex;
+
+    
+    box-sizing: border-box;
+    border-left: 2px solid black;
+}
+
+#siteMenu #firstListItem {
+    border-left: none;
+}
+
 
 main {
     width: 70%;
     background-color: pink;
     margin: auto;
+    overflow: auto;
 
     box-sizing: border-box;
     border: 1px solid black;
+}
+
+main p {
+    margin: 12px;
+}
+
+#mantis {
+    float: right;
+    width: 33%;
+    margin: 12px;
 }
 
 footer {
     width: 70%;
     background-color: pink;
     margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     box-sizing: border-box;
     border: 1px solid black;
